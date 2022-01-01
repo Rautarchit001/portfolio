@@ -1,19 +1,18 @@
-import { motion } from 'framer-motion'
-import { lazy, Suspense } from 'react'
-import styled, { keyframes, ThemeProvider } from 'styled-components'
+import { motion } from "framer-motion";
+import { lazy, Suspense } from "react";
+import styled, { keyframes, ThemeProvider } from "styled-components";
 
-import { DarkTheme, mediaQueries } from './Themes'
+import { DarkTheme, mediaQueries } from "./Themes";
 import astronaut from "../assets/Images/spaceman.png";
-import Loading from '../subComponents/Loading';
+import Loading from "../subComponents/Loading";
 //Components
-const SocialIcons = lazy(() => import('../subComponents/SocialIcons'))
-const PowerButton = lazy(() => import('../subComponents/PowerButton'))
-const LogoComponent = lazy(() => import('../subComponents/LogoComponent'))
+const SocialIcons = lazy(() => import("../subComponents/SocialIcons"));
+const PowerButton = lazy(() => import("../subComponents/PowerButton"));
+const LogoComponent = lazy(() => import("../subComponents/LogoComponent"));
 const ParticlesComponent = lazy(() =>
-  import('../subComponents/ParticleComponent')
-)
-const BigTitle = lazy(() => import('../subComponents/BigTitle'))
-
+  import("../subComponents/ParticleComponent")
+);
+const BigTitle = lazy(() => import("../subComponents/BigTitle"));
 
 const Box = styled(motion.div)`
   background-color: ${(props) => props.theme.body};
@@ -21,25 +20,25 @@ const Box = styled(motion.div)`
   height: 100vh;
   position: relative;
   overflow: hidden;
-`
+`;
 
 const float = keyframes`
 0% { transform: translateY(-10px)         }
     50% { transform: translateY(15px) translateX(15px)        }
     100% { transform: translateY(-10px)         }
-`
+`;
 
 const SpaceMan = styled(motion.div)`
   position: absolute;
   top: 10%;
   right: 5%;
   animation: ${float} 4s ease infinite;
-width:20vw;
-  img{
-    width:100%;
-    height:auto;
+  width: 20vw;
+  img {
+    width: 100%;
+    height: auto;
   }
-`
+`;
 const Main = styled(motion.div)`
   border: 2px solid ${(props) => props.theme.text};
   color: ${(props) => props.theme.text};
@@ -52,13 +51,13 @@ const Main = styled(motion.div)`
   justify-content: center;
   align-items: center;
   font-size: calc(0.6rem + 1vw);
- backdrop-filter: blur(4px);
-  
+  backdrop-filter: blur(4px);
+
   position: absolute;
   left: calc(5rem + 5vw);
   top: 10rem;
 
-  font-family: 'Ubuntu Mono', monospace;
+  font-family: "Ubuntu Mono", monospace;
   font-style: italic;
 
   ${mediaQueries(40)`
@@ -78,38 +77,40 @@ const Main = styled(motion.div)`
 
   `};
 
-${mediaQueries(20)`
+  ${mediaQueries(20)`
           padding: 1rem;
           font-size: calc(0.5rem + 1vw);
   `};
-
-`
+`;
 const AboutPage = () => {
   return (
     <ThemeProvider theme={DarkTheme}>
-      <Suspense fallback={<Loading/>}>
+      <Suspense fallback={<Loading />}>
         <Box
-          key='skills'
+          key="skills"
           initial={{ opacity: 0 }}
           animate={{ opacity: 1, transition: { duration: 0.5 } }}
-          exit={{ opacity: 0, transition: { duration: 0.5 } }}>
-          <LogoComponent theme='dark' />
+          exit={{ opacity: 0, transition: { duration: 0.5 } }}
+        >
+          <LogoComponent theme="dark" />
           <PowerButton />
-          <SocialIcons theme='dark' />
-          <ParticlesComponent theme='dark' />
+          <SocialIcons theme="dark" />
+          <ParticlesComponent theme="dark" />
 
           <SpaceMan
-            initial={{ right: '-20%', top: '100%' }}
+            initial={{ right: "-20%", top: "100%" }}
             animate={{
-              right: '5%',
-              top: '10%',
+              right: "5%",
+              top: "10%",
               transition: { duration: 2, delay: 0.5 },
-            }}>
-              <img src={astronaut}  alt="spaceman" />
+            }}
+          >
+            <img src={astronaut} alt="spaceman" />
           </SpaceMan>
           <Main
             initial={{ opacity: 0 }}
-            animate={{ opacity: 1, transition: { duration: 1, delay: 1 } }}>
+            animate={{ opacity: 1, transition: { duration: 1, delay: 1 } }}
+          >
             I'm a front-end developer located in India. I love to create simple
             yet beautiful websites with great user experience.
             <br />
@@ -118,13 +119,13 @@ const AboutPage = () => {
             and building great projects. I'm an independent freelancer and
             blogger. I love to write blogs and read books. <br />
             <br />I believe everything is an Art when you put your consciousness
-            in it. You can connect with me via social links.{' '}
+            in it. You can connect with me via social links.{" "}
           </Main>
-          <BigTitle text='ABOUT' top='10%' left='5%' />
+          <BigTitle text="ABOUT" top="10%" left="5%" />
         </Box>
       </Suspense>
     </ThemeProvider>
-  )
-}
+  );
+};
 
-export default AboutPage
+export default AboutPage;

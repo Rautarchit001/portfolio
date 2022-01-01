@@ -150,7 +150,7 @@ const Text = styled(motion.div)`
   font-size: calc(1rem + 1.5vw);
   color: ${(props) => props.theme.body};
   padding: 2rem;
-  cursor: pointer;
+  cursor: crosshair;
 
   display: flex;
   flex-direction: column;
@@ -183,8 +183,6 @@ const Text = styled(motion.div)`
 `;
 
 const Intro = () => {
-  /* console.log(mq); */
-
   const [height, setHeight] = useState("55vh");
 
   useEffect(() => {
@@ -205,9 +203,9 @@ const Intro = () => {
         <Text>
           <h1>Hi,</h1>
 
-          <h3>I'm CodeBucks.</h3>
+          <h3>I'm Hareesh.</h3>
 
-          <h6>I design and Code simple yet beautiful websites.</h6>
+          <h6>I love writing code to solve problems.</h6>
         </Text>
       </SubBox>
       <SubBox>

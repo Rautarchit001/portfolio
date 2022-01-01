@@ -3,7 +3,6 @@ import { NavLink } from "react-router-dom";
 import { lazy, Suspense, useState } from "react";
 import { motion } from "framer-motion";
 
-//Components
 import { YinYang } from "./AllSvgs";
 import Intro from "./Intro";
 import Loading from "../subComponents/Loading";
@@ -13,9 +12,6 @@ const PowerButton = lazy(() => import("../subComponents/PowerButton"));
 const SocialIcons = lazy(() => import("./../subComponents/SocialIcons"));
 
 const LogoComponent = lazy(() => import("./../subComponents/LogoComponent"));
-
-//   import SocialIcons from './../subComponents/SocialIcons';
-// import LogoComponent from './../subComponents/LogoComponent';
 
 const MainContainer = styled(motion.div)`
   background: ${(props) => props.theme.body};
@@ -113,10 +109,23 @@ const BLOG = styled(NavLink)`
     text-shadow: ${(props) => (props.click ? "0 0 4px #000" : "none")};
   }
 `;
+const RESUME = styled(NavLink)`
+color: ${(props) => (props.click ? props.theme.body : props.theme.text)};
+  position: absolute;
+  top: 25%;
+  left: calc(1rem + 2vw);
+  transform: translate(-50%, -50%) rotate(-90deg);
+  z-index: 1;
+  text-decoration: none;
+  @media only screen and (max-width: 50em) {
+    text-shadow: ${(props) => (props.click ? "0 0 4px #000" : "none")};
+  }
+`;
+
 const WORK = styled(NavLink)`
   color: ${(props) => (props.click ? props.theme.body : props.theme.text)};
   position: absolute;
-  top: 50%;
+  top: 45%;
   left: calc(1rem + 2vw);
   transform: translate(-50%, -50%) rotate(-90deg);
   z-index: 1;
@@ -161,21 +170,14 @@ const DarkDiv = styled.div`
       ? mediaQueries(50)`
        height: 50%;
   right:0;
-  
   width: 100%;
   transition: width 0.5s ease, height 1s ease 0.5s;
-
   `
       : mediaQueries(50)`
        height: 0;
-  
   width: 0;
   `};
 `;
-
-/*
-Music by <a href="/users/wataboi-12344345/?tab=audio&amp;utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=audio&amp;utm_content=1167">Wataboi</a> from <a href="https://pixabay.com/music/?utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=music&amp;utm_content=1167">Pixabay</a>
-*/
 
 const Main = () => {
   const [click, setClick] = useState(false);
@@ -190,6 +192,11 @@ const Main = () => {
     x: `${path === "work" ? "100%" : "-100%"}`,
   };
   const mq = window.matchMedia("(max-width: 50em)").matches;
+
+  const download = () => {
+    window.open(
+      "https://firebasestorage.googleapis.com/v0/b/hareesh-e153f.appspot.com/o/HAREESH%20RAJENDRAN.pdf?alt=media&token=d5ffa2ba-46ae-4bd7-b3c1-47a1f0f6944d", "_blank");
+  }
 
   return (
     <Suspense fallback={<Loading />}>
@@ -226,14 +233,14 @@ const Main = () => {
               />
             )}
 
-            <span>click here</span>
+            <span onClick={() => handleClick()}>click here</span>
           </Center>
 
           {mq ? (
             <Contact
               click={+click}
               target="_blank"
-              to={{ pathname: "mailto:codebucks27@gmail.com" }}
+              to={{ pathname: "mailto:hareeshprogrammer@gmail.com" }}
             >
               <motion.h3
                 initial={{
@@ -254,7 +261,7 @@ const Main = () => {
             <Contact
               click={+false}
               target="_blank"
-              to={{ pathname: "mailto:codebucks27@gmail.com" }}
+              to={{ pathname: "mailto:hareeshprogrammer@gmail.com" }}
             >
               <motion.h3
                 initial={{
@@ -323,10 +330,26 @@ const Main = () => {
               whileHover={{ scale: 1.1 }}
               whileTap={{ scale: 0.9 }}
             >
-              Work
+              Projects
             </motion.h2>
           </WORK>
-
+          <RESUME to=''>
+            <motion.h2
+              onClick={() => download()}
+              initial={{
+                y: -200,
+                transition: { type: "spring", duration: 1.5, delay: 1 },
+              }}
+              animate={{ 
+                y: 0,
+                transition: { type: "spring", duration: 1.5, delay: 1 },
+              }}
+              whileHover={{ scale: 1.1 }}
+              whileTap={{ scale: 0.9 }}
+            >
+               Resume
+            </motion.h2>
+          </RESUME>
           <BottomBar>
             <ABOUT
               onClick={() => setClick(false)}
