@@ -164,44 +164,43 @@ const MySkillsPage = () => {
 
           <Main>
             <Title>
-              <Design width={40} height={40} /> Designer
+            <Develope width={40} height={40} /> Software Developer
             </Title>
             <Description>
-              I love to create design which speaks, Keep it clean, minimal and
-              simple.
+              I love to write clean code and make things that are useful.
             </Description>
             <Description>
-              <strong>I like to Design</strong> <br />
-              <ul>
-                <li>Web Design</li>
-                <li>Mobile Apps</li>
-              </ul>
-            </Description>
-            <Description>
-              <strong>Tools</strong> <br />
-              <ul>
-                <li>Figma</li>
-              </ul>
-            </Description>
-          </Main>
-          <Main>
-            <Title>
-              <Develope width={40} height={40} /> Frontend Developer
-            </Title>
-            <Description>
-              I value business or brand for which i'm creating, thus i enjoy
-              bringing new ideas to life.
-            </Description>
-            <Description>
-              <strong>Skills</strong> <br />
+            <strong>I like to code in</strong> <br />
               <p>
-                Html, Css, Js, React, Redux, Sass, Bootstrap, Tailwind, Firebase
-                etc.
+              Python, Java, Javascript, Node, MySQL, C, C++, MongoDB
               </p>
             </Description>
             <Description>
               <strong>Tools</strong> <br />
-              <p>VScode, Github, Codepen etc.</p>
+              <ul>
+                <li>Anaconda</li>
+                <li>Juypter</li>
+                <li>Pycharm</li>
+              </ul>
+            </Description>
+          </Main>
+          
+          <Main>
+            <Title>
+            <Design width={40} height={40} /> Frontend Developer
+            </Title>
+            <Description>
+              I enjoy bringing new ideas to life. I feel lucky for being an frontend developer as my code directly impact the life of the user.
+            </Description>
+            <Description>
+              <strong>Skills</strong> <br />
+              <p>
+                Html, Css, Js, React, Redux, Sass, Bootstrap, Firebase
+              </p>
+            </Description>
+            <Description>
+              <strong>Tools</strong> <br />
+              <p>VScode, Figma, Github, AdobeXD etc.</p>
             </Description>
           </Main>
           <BigTitle text="Skills" top="80%" right="30%" />

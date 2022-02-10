@@ -111,15 +111,13 @@ const AboutPage = () => {
             initial={{ opacity: 0 }}
             animate={{ opacity: 1, transition: { duration: 1, delay: 1 } }}
           >
-            I'm a front-end developer located in India. I love to create simple
-            yet beautiful websites with great user experience.
+            I'm a Software Developer located in India. I love to create simple
+            yet beautiful websites with great user experience. I'm a constant learner.
             <br />
             <br />
-            I'm interested in the whole frontend stack Like trying new things
-            and building great projects. I'm an independent freelancer and
-            blogger. I love to write blogs and read books. <br />
-            <br />I believe everything is an Art when you put your consciousness
-            in it. You can connect with me via social links.{" "}
+            I'm also interested in Machine Learning and I Like trying new things
+            and building great projects. I'm extremely fond of Robotics and built about 7 Robots at my 15.I'm good in Data Strutures and Algorithms <br />
+            <br />I have been a tech saavy since my childhood , I'm an extroverted being. You can connect with me via social links.{" "}
           </Main>
           <BigTitle text="ABOUT" top="10%" left="5%" />
         </Box>

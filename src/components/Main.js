@@ -195,7 +195,7 @@ const Main = () => {
 
   const download = () => {
     window.open(
-      "https://firebasestorage.googleapis.com/v0/b/hareesh-e153f.appspot.com/o/HAREESH%20RAJENDRAN.pdf?alt=media&token=d5ffa2ba-46ae-4bd7-b3c1-47a1f0f6944d", "_blank");
+      "https://firebasestorage.googleapis.com/v0/b/hareesh-e153f.appspot.com/o/Hareesh%20Updated%20Resume.pdf?alt=media&token=06c65cc8-4246-42d8-bd87-cd713110df6c", "_blank");
   }
 
   return (
@@ -240,6 +240,7 @@ const Main = () => {
             <Contact
               click={+click}
               target="_blank"
+              onClick={() => window.open("mailto:hareeshprogrammer@gmail.com","_blank")}
               to={{ pathname: "mailto:hareeshprogrammer@gmail.com" }}
             >
               <motion.h3
@@ -261,6 +262,7 @@ const Main = () => {
             <Contact
               click={+false}
               target="_blank"
+              onClick={() => window.open("mailto:hareeshprogrammer@gmail.com","_blank")}
               to={{ pathname: "mailto:hareeshprogrammer@gmail.com" }}
             >
               <motion.h3
@@ -333,7 +335,7 @@ const Main = () => {
               Projects
             </motion.h2>
           </WORK>
-          <RESUME to=''>
+          <RESUME click={+click} to=''>
             <motion.h2
               onClick={() => download()}
               initial={{

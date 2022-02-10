@@ -108,7 +108,7 @@ const WorkPage = () => {
     let element = ref.current;
 
     const rotate = () => {
-      element.style.transform = `translateX(${-window.pageYOffset}px)`;
+      element.style.transform = `translateX(${-window.pageYOffset/6}em)`;
 
       return (yinyang.current.style.transform =
         "rotate(" + -window.pageYOffset + "deg)");
