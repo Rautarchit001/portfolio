@@ -1,4 +1,5 @@
 import { Route, Switch, useLocation } from "react-router";
+import { useEffect } from "react";
 import { ThemeProvider } from "styled-components";
 import { lightTheme } from "./components/Themes";
 import GlobalStyle from "./globalStyles";
@@ -12,6 +13,7 @@ import { AnimatePresence } from "framer-motion";
 
 function App() {
   const location = useLocation();
+
   return (
     <>
       <GlobalStyle />

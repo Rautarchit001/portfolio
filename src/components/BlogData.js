@@ -32,17 +32,17 @@ export const Blogs = [
     tags: ["Guiness", "AI-For-India", "Artificial Intelligence"],
     date: "GUVI Geek Networks, IITM Research Park ",
     imgSrc:
-      "https://www.guvi.in/images/guvi-logo.png",
+      "",
     link: "https://www.guvi.in/verify-certificate?id=4iW3B7712GQ8191O63#",
   },
   {
     id: 5,
-    name: "What is Higher Order Component (HOC) in React JS?",
-    tags: ["react", "reactJS", "web-development"],
-    date: "3 Feb, 2021",
+    name: "Machine Learning",
+    tags: ["Applied", "reactJS", "web-development"],
+    date: "Internshala - Credential ID : 0664361D-388D-E9FE-CDEE-52C350E6A7D9",
     imgSrc:
-      "https://codebucks.hashnode.dev/_next/image?url=https%3A%2F%2Fcdn.hashnode.com%2Fres%2Fhashnode%2Fimage%2Fupload%2Fv1625295480148%2FlyKj8bpHK.jpeg%3Fw%3D1600%26h%3D840%26fit%3Dcrop%26crop%3Dentropy%26auto%3Dcompress%2Cformat%26format%3Dwebp&w=1920&q=75",
-    link: "https://codebucks.hashnode.dev/what-is-higher-order-component",
+      "",
+    link: "https://trainings.internshala.com/verify_certificate",
   },
   {
     id: 6,
@@ -50,7 +50,7 @@ export const Blogs = [
     tags: ["react", "css"],
     date: "5 Jan, 2021",
     imgSrc:
-      "https://codebucks.hashnode.dev/_next/image?url=https%3A%2F%2Fcdn.hashnode.com%2Fres%2Fhashnode%2Fimage%2Fupload%2Fv1625240050668%2FGAya9b0XK.png%3Fw%3D1600%26h%3D840%26fit%3Dcrop%26crop%3Dentropy%26auto%3Dcompress%2Cformat%26format%3Dwebp&w=1920&q=75",
+      "",
     link: "https://codebucks.hashnode.dev/pagination-in-react",
   },
 
@@ -60,7 +60,7 @@ export const Blogs = [
     tags: ["react", "redux", "javascript"],
     date: "16 May, 2021",
     imgSrc:
-      "https://res.cloudinary.com/practicaldev/image/fetch/s--ZY1EK-Eo--/c_imagga_scale,f_auto,fl_progressive,h_420,q_auto,w_1000/https://dev-to-uploads.s3.amazonaws.com/uploads/articles/bcz1u90oq3prr5fga3fs.png",
+      "",
     link: "https://dev.to/codebucks/what-is-redux-simply-explained-2ch7",
   },
   {
@@ -69,7 +69,7 @@ export const Blogs = [
     tags: ["react", "framer-motion", "styled-components"],
     date: "26 May, 2021",
     imgSrc:
-      "https://res.cloudinary.com/practicaldev/image/fetch/s--rv4I8UwE--/c_imagga_scale,f_auto,fl_progressive,h_420,q_auto,w_1000/https://dev-to-uploads.s3.amazonaws.com/uploads/articles/0a9h50milhlf1us6mn4a.png",
+      "",
     link: "https://dev.to/codebucks/build-sidebar-navigation-menu-in-reactjs-with-react-router-and-framer-motion-for-cool-page-transition-effects-4bc3",
   },{
     id: 8,
@@ -77,7 +77,7 @@ export const Blogs = [
     tags: ["react", "framer-motion", "styled-components"],
     date: "26 May, 2021",
     imgSrc:
-      "https://res.cloudinary.com/practicaldev/image/fetch/s--rv4I8UwE--/c_imagga_scale,f_auto,fl_progressive,h_420,q_auto,w_1000/https://dev-to-uploads.s3.amazonaws.com/uploads/articles/0a9h50milhlf1us6mn4a.png",
+      "",
     link: "https://dev.to/codebucks/build-sidebar-navigation-menu-in-reactjs-with-react-router-and-framer-motion-for-cool-page-transition-effects-4bc3",
   },{
     id: 8,
@@ -85,7 +85,7 @@ export const Blogs = [
     tags: ["react", "framer-motion", "styled-components"],
     date: "26 May, 2021",
     imgSrc:
-      "https://res.cloudinary.com/practicaldev/image/fetch/s--rv4I8UwE--/c_imagga_scale,f_auto,fl_progressive,h_420,q_auto,w_1000/https://dev-to-uploads.s3.amazonaws.com/uploads/articles/0a9h50milhlf1us6mn4a.png",
+      "",
     link: "https://dev.to/codebucks/build-sidebar-navigation-menu-in-reactjs-with-react-router-and-framer-motion-for-cool-page-transition-effects-4bc3",
   },{
     id: 8,
@@ -93,7 +93,7 @@ export const Blogs = [
     tags: ["react", "framer-motion", "styled-components"],
     date: "26 May, 2021",
     imgSrc:
-      "https://res.cloudinary.com/practicaldev/image/fetch/s--rv4I8UwE--/c_imagga_scale,f_auto,fl_progressive,h_420,q_auto,w_1000/https://dev-to-uploads.s3.amazonaws.com/uploads/articles/0a9h50milhlf1us6mn4a.png",
+      "",
     link: "https://dev.to/codebucks/build-sidebar-navigation-menu-in-reactjs-with-react-router-and-framer-motion-for-cool-page-transition-effects-4bc3",
   },{
     id: 8,
@@ -101,7 +101,7 @@ export const Blogs = [
     tags: ["react", "framer-motion", "styled-components"],
     date: "26 May, 2021",
     imgSrc:
-      "https://res.cloudinary.com/practicaldev/image/fetch/s--rv4I8UwE--/c_imagga_scale,f_auto,fl_progressive,h_420,q_auto,w_1000/https://dev-to-uploads.s3.amazonaws.com/uploads/articles/0a9h50milhlf1us6mn4a.png",
+      "",
     link: "https://dev.to/codebucks/build-sidebar-navigation-menu-in-reactjs-with-react-router-and-framer-motion-for-cool-page-transition-effects-4bc3",
   },{
     id: 8,
@@ -109,7 +109,7 @@ export const Blogs = [
     tags: ["react", "framer-motion", "styled-components"],
     date: "26 May, 2021",
     imgSrc:
-      "https://res.cloudinary.com/practicaldev/image/fetch/s--rv4I8UwE--/c_imagga_scale,f_auto,fl_progressive,h_420,q_auto,w_1000/https://dev-to-uploads.s3.amazonaws.com/uploads/articles/0a9h50milhlf1us6mn4a.png",
+      "",
     link: "https://dev.to/codebucks/build-sidebar-navigation-menu-in-reactjs-with-react-router-and-framer-motion-for-cool-page-transition-effects-4bc3",
   },{
     id: 8,
@@ -117,7 +117,7 @@ export const Blogs = [
     tags: ["react", "framer-motion", "styled-components"],
     date: "26 May, 2021",
     imgSrc:
-      "https://res.cloudinary.com/practicaldev/image/fetch/s--rv4I8UwE--/c_imagga_scale,f_auto,fl_progressive,h_420,q_auto,w_1000/https://dev-to-uploads.s3.amazonaws.com/uploads/articles/0a9h50milhlf1us6mn4a.png",
+      "",
     link: "https://dev.to/codebucks/build-sidebar-navigation-menu-in-reactjs-with-react-router-and-framer-motion-for-cool-page-transition-effects-4bc3",
   },{
     id: 8,
@@ -125,7 +125,7 @@ export const Blogs = [
     tags: ["react", "framer-motion", "styled-components"],
     date: "26 May, 2021",
     imgSrc:
-      "https://res.cloudinary.com/practicaldev/image/fetch/s--rv4I8UwE--/c_imagga_scale,f_auto,fl_progressive,h_420,q_auto,w_1000/https://dev-to-uploads.s3.amazonaws.com/uploads/articles/0a9h50milhlf1us6mn4a.png",
+      "",
     link: "https://dev.to/codebucks/build-sidebar-navigation-menu-in-reactjs-with-react-router-and-framer-motion-for-cool-page-transition-effects-4bc3",
   },{
     id: 8,
@@ -133,7 +133,7 @@ export const Blogs = [
     tags: ["react", "framer-motion", "styled-components"],
     date: "26 May, 2021",
     imgSrc:
-      "https://res.cloudinary.com/practicaldev/image/fetch/s--rv4I8UwE--/c_imagga_scale,f_auto,fl_progressive,h_420,q_auto,w_1000/https://dev-to-uploads.s3.amazonaws.com/uploads/articles/0a9h50milhlf1us6mn4a.png",
+      "",
     link: "https://dev.to/codebucks/build-sidebar-navigation-menu-in-reactjs-with-react-router-and-framer-motion-for-cool-page-transition-effects-4bc3",
   },{
     id: 8,
@@ -141,7 +141,7 @@ export const Blogs = [
     tags: ["react", "framer-motion", "styled-components"],
     date: "26 May, 2021",
     imgSrc:
-      "https://res.cloudinary.com/practicaldev/image/fetch/s--rv4I8UwE--/c_imagga_scale,f_auto,fl_progressive,h_420,q_auto,w_1000/https://dev-to-uploads.s3.amazonaws.com/uploads/articles/0a9h50milhlf1us6mn4a.png",
+      "",
     link: "https://dev.to/codebucks/build-sidebar-navigation-menu-in-reactjs-with-react-router-and-framer-motion-for-cool-page-transition-effects-4bc3",
   },{
     id: 8,
@@ -149,7 +149,7 @@ export const Blogs = [
     tags: ["react", "framer-motion", "styled-components"],
     date: "26 May, 2021",
     imgSrc:
-      "https://res.cloudinary.com/practicaldev/image/fetch/s--rv4I8UwE--/c_imagga_scale,f_auto,fl_progressive,h_420,q_auto,w_1000/https://dev-to-uploads.s3.amazonaws.com/uploads/articles/0a9h50milhlf1us6mn4a.png",
+      "",
     link: "https://dev.to/codebucks/build-sidebar-navigation-menu-in-reactjs-with-react-router-and-framer-motion-for-cool-page-transition-effects-4bc3",
   },
 ];

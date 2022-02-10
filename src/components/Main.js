@@ -183,7 +183,18 @@ const Main = () => {
   const [click, setClick] = useState(false);
   const [path, setpath] = useState("");
 
-  const handleClick = () => setClick(!click);
+  const handleClick = () => {
+    setClick(!click);
+    
+    if(document.documentElement.requestFullScreen) {
+      document.documentElement.requestFullScreen();
+    } else if(document.documentElement.mozRequestFullScreen) {
+      document.documentElement.mozRequestFullScreen();
+    } else if(document.documentElement.webkitRequestFullScreen) {
+      document.documentElement.webkitRequestFullScreen();
+    }
+
+  } 
 
   const moveY = {
     y: "-100%",
