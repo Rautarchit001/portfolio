@@ -205,7 +205,7 @@ const Main = () => {
 
   const download = () => {
     window.open(
-      "https://firebasestorage.googleapis.com/v0/b/hareesh-e153f.appspot.com/o/Hareesh%20Updated%20Resume.pdf?alt=media&token=06c65cc8-4246-42d8-bd87-cd713110df6c",
+      "https://firebasestorage.googleapis.com/v0/b/hareesh-e153f.appspot.com/o/Hareesh%20Updated%20Resume.pdf?alt=media&token=8687f221-515c-4aca-88d5-2e8512f08e92",
       "_blank"
     );
   };
