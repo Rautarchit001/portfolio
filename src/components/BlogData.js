@@ -1,5 +1,29 @@
 export const Blogs = [
   {
+    id: 6,
+    name: "Fashioo.in - Frontend Development Intern",
+    tags: ["HTML", "CSS" , "BootStrap" , "JavaScript"],
+    date: "Worked as a Frontend Developer Netlify , GitHub , SEO Multimedia Manipulation",
+    imgSrc: "https://firebasestorage.googleapis.com/v0/b/hareesh-e153f.appspot.com/o/fashioo.jfif?alt=media&token=3ef77672-550a-43d3-bc1a-989ed7dd8e32",
+    link: "fashioo.in",
+  },
+  {
+    id: 7,
+    name: "Mineral Drop - Frontend Development Intern",
+    tags: ["Netlify" , "GitHub" , "Godaddy" , "FireBase"],
+    date: "6 months long Internship in Mineral Drop , Made me do incredible web designs ",
+    imgSrc: "https://firebasestorage.googleapis.com/v0/b/hareesh-e153f.appspot.com/o/mindrop.png?alt=media&token=365a56e9-f204-4955-8316-4dd85b415b8f",
+    link: "mineraldrop.in",
+  },
+  {
+    id: 8,
+    name: "Bit Brothers - Junior Javascript Developer",
+    tags: ["ReactJS" , "MaterialUI" , "Figma" , "Github" , "Conventional commits"],
+    date: "Worked on Real world projects and Collaborated using GitHub by using conventional commits",
+    imgSrc: "https://firebasestorage.googleapis.com/v0/b/hareesh-e153f.appspot.com/o/bitbros.png?alt=media&token=367f4b3d-5d48-4bb6-bdb2-3aa5509c41bb",
+    link: "https://bitbrothers.in/",
+  },
+  {
     id: 1,
     name: "Gmail Login using Python Selenium",
     tags: ["Geeks For Geeks", "Article", "python", "selenium"],
@@ -43,30 +67,6 @@ export const Blogs = [
     imgSrc:
       "https://firebasestorage.googleapis.com/v0/b/hareesh-e153f.appspot.com/o/internshala_og_image.jpg?alt=media&token=d6528be6-79ff-445c-acd7-c1bdd3c13b13",
     link: "https://trainings.internshala.com/verify_certificate",
-  },
-  {
-    id: 6,
-    name: "",
-    tags: ["", ""],
-    date: "",
-    imgSrc: "",
-    link: "",
-  },
-  {
-    id: 7,
-    name: "",
-    tags: ["", ""],
-    date: "",
-    imgSrc: "",
-    link: "",
-  },
-  {
-    id: 8,
-    name: "",
-    tags: ["", ""],
-    date: "",
-    imgSrc: "",
-    link: "",
   },
   {
     id: 9,

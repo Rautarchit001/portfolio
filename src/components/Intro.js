@@ -205,7 +205,7 @@ const Intro = () => {
 
           <h3>I'm Hareesh.</h3>
 
-          <h6>I love writing code to solve problems.</h6>
+          <h6>A self-motivated, highly skilled, and self-driven aspiring software engineer with the ability to adapt to any situation and the proven ability to grow oneself and others.</h6>
         </Text>
       </SubBox>
       <SubBox>
