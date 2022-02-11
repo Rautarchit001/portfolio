@@ -48,7 +48,7 @@ const Image = styled.div`
   background-image: ${(props) => `url(${props.img})`};
   width: 100%;
   height: 60%;
-  background-size: cover;
+  background-size: contain;
   border: 1px solid transparent;
   background-position: center center;
   ${mediaQueries(25)`
