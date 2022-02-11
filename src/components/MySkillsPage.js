@@ -177,7 +177,7 @@ const MySkillsPage = () => {
               <strong>Tools</strong> <br />
               <ul>
                 <li>Anaconda</li>
-                <li>Juypter</li>
+                <li>Jupyter</li>
                 <li>Pycharm</li>
               </ul>
             </Description>
