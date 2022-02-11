@@ -121,6 +121,8 @@ const AboutPage = () => {
             been interested in robotics and built around seven of them when I
             was 15 years old. <br />
             <br />
+            I'm a Crypto junkie and a Pianist contrasting right ?
+            <br />
             I've been fascinated by technology since I was a child and grown up
             as a Tech Savvy, and I'm a gregarious individual. You can reach out
             to me on my socials.{" "}
