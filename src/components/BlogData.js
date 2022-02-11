@@ -18,7 +18,7 @@ export const Blogs = [
   {
     id: 8,
     name: "Bit Brothers - Junior Javascript Developer",
-    tags: ["ReactJS" , "MaterialUI" , "Figma" , "Github" , "Conventional commits"],
+    tags: ["ReactJS" , "MaterialUI" , "Figma" , "Github"],
     date: "Worked on Real world projects and Collaborated using GitHub by using conventional commits",
     imgSrc: "https://firebasestorage.googleapis.com/v0/b/hareesh-e153f.appspot.com/o/bitbros.png?alt=media&token=367f4b3d-5d48-4bb6-bdb2-3aa5509c41bb",
     link: "https://bitbrothers.in/",
