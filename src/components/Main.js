@@ -110,7 +110,7 @@ const BLOG = styled(NavLink)`
   }
 `;
 const RESUME = styled(NavLink)`
-color: ${(props) => (props.click ? props.theme.body : props.theme.text)};
+  color: ${(props) => (props.click ? props.theme.body : props.theme.text)};
   position: absolute;
   top: 25%;
   left: calc(1rem + 2vw);
@@ -185,16 +185,15 @@ const Main = () => {
 
   const handleClick = () => {
     setClick(!click);
-    
-    if(document.documentElement.requestFullScreen) {
+
+    if (document.documentElement.requestFullScreen) {
       document.documentElement.requestFullScreen();
-    } else if(document.documentElement.mozRequestFullScreen) {
+    } else if (document.documentElement.mozRequestFullScreen) {
       document.documentElement.mozRequestFullScreen();
-    } else if(document.documentElement.webkitRequestFullScreen) {
+    } else if (document.documentElement.webkitRequestFullScreen) {
       document.documentElement.webkitRequestFullScreen();
     }
-
-  } 
+  };
 
   const moveY = {
     y: "-100%",
@@ -206,8 +205,10 @@ const Main = () => {
 
   const download = () => {
     window.open(
-      "https://firebasestorage.googleapis.com/v0/b/hareesh-e153f.appspot.com/o/Hareesh%20Updated%20Resume.pdf?alt=media&token=06c65cc8-4246-42d8-bd87-cd713110df6c", "_blank");
-  }
+      "https://firebasestorage.googleapis.com/v0/b/hareesh-e153f.appspot.com/o/Hareesh%20Updated%20Resume.pdf?alt=media&token=06c65cc8-4246-42d8-bd87-cd713110df6c",
+      "_blank"
+    );
+  };
 
   return (
     <Suspense fallback={<Loading />}>
@@ -251,7 +252,9 @@ const Main = () => {
             <Contact
               click={+click}
               target="_blank"
-              onClick={() => window.open("mailto:hareeshprogrammer@gmail.com","_blank")}
+              onClick={() =>
+                window.open("mailto:hareeshprogrammer@gmail.com", "_blank")
+              }
               to={{ pathname: "mailto:hareeshprogrammer@gmail.com" }}
             >
               <motion.h3
@@ -273,7 +276,9 @@ const Main = () => {
             <Contact
               click={+false}
               target="_blank"
-              onClick={() => window.open("mailto:hareeshprogrammer@gmail.com","_blank")}
+              onClick={() =>
+                window.open("mailto:hareeshprogrammer@gmail.com", "_blank")
+              }
               to={{ pathname: "mailto:hareeshprogrammer@gmail.com" }}
             >
               <motion.h3
@@ -324,7 +329,7 @@ const Main = () => {
                 whileHover={{ scale: 1.1 }}
                 whileTap={{ scale: 0.9 }}
               >
-                Blog
+                Feats
               </motion.h2>
             </BLOG>
           )}
@@ -346,21 +351,21 @@ const Main = () => {
               Projects
             </motion.h2>
           </WORK>
-          <RESUME click={+click} to=''>
+          <RESUME click={+click} to="">
             <motion.h2
               onClick={() => download()}
               initial={{
                 y: -200,
                 transition: { type: "spring", duration: 1.5, delay: 1 },
               }}
-              animate={{ 
+              animate={{
                 y: 0,
                 transition: { type: "spring", duration: 1.5, delay: 1 },
               }}
               whileHover={{ scale: 1.1 }}
               whileTap={{ scale: 0.9 }}
             >
-               Resume
+              Resume
             </motion.h2>
           </RESUME>
           <BottomBar>

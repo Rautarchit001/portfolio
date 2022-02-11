@@ -6,7 +6,7 @@ export const Work = [
     name: "Crypto King",
     description:
       "Crypto king is a crypto infomercial web app which shows data about the market and Top 100 coins and related news about then and about crypto exchanges.",
-    tags: ["react", "crypto", "coinranking API","redux"],
+    tags: ["react", "crypto", "coinranking API", "redux"],
 
     demo: "https://cryptoking.web.app/",
     github: "https://github.com/hareesh-r/cryptoking",
@@ -16,7 +16,7 @@ export const Work = [
     name: "Internshala-frontend",
     description:
       "This web application is built within 3 hours for an internship application which exactly mirrors the website internshala.com's homepage",
-    tags: ["react", "html","css"],
+    tags: ["react", "html", "css"],
 
     demo: "https://internshala-frontend.web.app/",
     github: "https://github.com/hareesh-r/internshala-frontend",
@@ -26,7 +26,7 @@ export const Work = [
     name: "Stock-information",
     description:
       "This is a stock market information web application that will give infographics on the real time stock market data from famous stocks in day/week/monthly views along with additional information on the stocks which is bagged with a search for specific stock feature",
-    tags: ["react", "api", "stocks","stvio API"],
+    tags: ["react", "api", "stocks", "stvio API"],
 
     demo: "https://stock-information.web.app/",
     github: "https://github.com/hareesh-r/stock-info",
@@ -76,7 +76,7 @@ export const Work = [
     name: "Google Clone",
     description:
       "Google Clone Built with Google Custom Search API and ReactJS With dark mode feature.",
-    tags: ["react", "Google Search API", "CSS","HTML"],
+    tags: ["react", "Google Search API", "CSS", "HTML"],
 
     demo: "https://gooogle-hareesh.web.app/",
     github: "https://github.com/hareesh-r/google-hareesh",
@@ -86,7 +86,7 @@ export const Work = [
     name: "Netflix Frontend Clone",
     description:
       "Netflix frontend clone with React JS and Firebase Backend with TMDB API",
-    tags: ["react", "TMDB API", "css","firebase"],
+    tags: ["react", "TMDB API", "css", "firebase"],
 
     demo: "https://netflix-hareesh.web.app/",
     github: "https://github.com/hareesh-r/netflix-hareesh",
@@ -116,7 +116,7 @@ export const Work = [
     name: "Facial Expression Recognition",
     description:
       "Deep Learning project , Tensor flow based facial expression recognition project which can distinguish 7 expressions built using a library called keras and an 8 layered neural network.",
-    tags: ["Python 3", "CNN", "Deep Learning","Open CV"],
+    tags: ["Python 3", "CNN", "Deep Learning", "Open CV"],
 
     demo: "https://github.com/hareesh-r/Facial-Expression-Recognition-Keras",
     github: "https://github.com/hareesh-r/Facial-Expression-Recognition-Keras",
@@ -136,7 +136,7 @@ export const Work = [
     name: "File-Seperator",
     description:
       "It's a python based file segregator which segregates files in different folder based on their type ",
-    tags: ["OS", "python", "utility","real time"],
+    tags: ["OS", "python", "utility", "real time"],
 
     demo: "https://github.com/hareesh-r/File-Seperator",
     github: "https://github.com/hareesh-r/File-Seperator",
@@ -150,5 +150,5 @@ export const Work = [
 
     demo: "http://react-responsive-navbar-codebucks27.vercel.app/",
     github: "https://github.com/codebucks27/React-responsive-navbar",
-  }
+  },
 ];

@@ -8,7 +8,7 @@ export const Blogs = [
       "https://firebasestorage.googleapis.com/v0/b/hareesh-e153f.appspot.com/o/gfg.png?alt=media&token=b416e9e5-cef2-40ce-be6b-3bbd5f41a5c1",
     link: "https://www.geeksforgeeks.org/gmail-login-using-python-selenium/",
   },
-  { 
+  {
     id: 2,
     name: "I'm a content creator and Admin @technamite",
     tags: ["instagram", "tech", "content", "admin"],
@@ -20,7 +20,7 @@ export const Blogs = [
   {
     id: 3,
     name: "Google Cloud Community India Learn to Earn Cloud Security Challenge: Level 1",
-    tags: ["Google", "Cloud", "Cloud","Security"],
+    tags: ["Google", "Cloud", "Cloud", "Security"],
     date: "6 July, 2021",
     imgSrc:
       "https://cdn.qwiklabs.com/X5Ngy9b5EeSYwJ4BajDQmvS2LB3KmqU07Krx6K2jtrg%3D",
@@ -49,8 +49,7 @@ export const Blogs = [
     name: "",
     tags: ["", ""],
     date: "",
-    imgSrc:
-      "",
+    imgSrc: "",
     link: "",
   },
   {
@@ -58,8 +57,7 @@ export const Blogs = [
     name: "",
     tags: ["", ""],
     date: "",
-    imgSrc:
-      "",
+    imgSrc: "",
     link: "",
   },
   {
@@ -67,8 +65,7 @@ export const Blogs = [
     name: "",
     tags: ["", ""],
     date: "",
-    imgSrc:
-      "",
+    imgSrc: "",
     link: "",
   },
   {
@@ -76,8 +73,7 @@ export const Blogs = [
     name: "",
     tags: ["", ""],
     date: "",
-    imgSrc:
-      "",
+    imgSrc: "",
     link: "",
   },
   {
@@ -85,8 +81,7 @@ export const Blogs = [
     name: "",
     tags: ["", ""],
     date: "",
-    imgSrc:
-      "",
+    imgSrc: "",
     link: "",
   },
   {
@@ -94,8 +89,7 @@ export const Blogs = [
     name: "",
     tags: ["", ""],
     date: "",
-    imgSrc:
-      "",
+    imgSrc: "",
     link: "",
   },
   {
@@ -103,8 +97,7 @@ export const Blogs = [
     name: "",
     tags: ["", ""],
     date: "",
-    imgSrc:
-      "",
+    imgSrc: "",
     link: "",
   },
   {
@@ -112,8 +105,7 @@ export const Blogs = [
     name: "",
     tags: ["", ""],
     date: "",
-    imgSrc:
-      "",
+    imgSrc: "",
     link: "",
   },
   {
@@ -121,8 +113,7 @@ export const Blogs = [
     name: "",
     tags: ["", ""],
     date: "",
-    imgSrc:
-      "",
+    imgSrc: "",
     link: "",
   },
   {
@@ -130,8 +121,7 @@ export const Blogs = [
     name: "",
     tags: ["", ""],
     date: "",
-    imgSrc:
-      "",
+    imgSrc: "",
     link: "",
-  }
+  },
 ];

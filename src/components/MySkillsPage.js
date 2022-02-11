@@ -164,16 +164,14 @@ const MySkillsPage = () => {
 
           <Main>
             <Title>
-            <Develope width={40} height={40} /> Software Developer
+              <Develope width={40} height={40} /> Software Developer
             </Title>
             <Description>
-              I love to write clean code and make things that are useful.
+              I enjoy writing clean code and creating useful products.
             </Description>
             <Description>
-            <strong>I like to code in</strong> <br />
-              <p>
-              Python, Java, Javascript, Node, MySQL, C, C++, MongoDB
-              </p>
+              <strong>I like to code in</strong> <br />
+              <p>Python, Java, Javascript, Node, MySQL, C, C++, MongoDB</p>
             </Description>
             <Description>
               <strong>Tools</strong> <br />
@@ -184,19 +182,19 @@ const MySkillsPage = () => {
               </ul>
             </Description>
           </Main>
-          
+
           <Main>
             <Title>
-            <Design width={40} height={40} /> Frontend Developer
+              <Design width={40} height={40} /> Frontend Developer
             </Title>
             <Description>
-              I enjoy bringing new ideas to life. I feel lucky for being an frontend developer as my code directly impact the life of the user.
+              It's fun for me to bring new concepts to life. I consider myself
+              fortunate to be a frontend developer because my work has a direct
+              impact on the user's life.
             </Description>
             <Description>
               <strong>Skills</strong> <br />
-              <p>
-                Html, Css, Js, React, Redux, Sass, Bootstrap, Firebase
-              </p>
+              <p>Html, Css, Js, React, Redux, Sass, Bootstrap, Firebase</p>
             </Description>
             <Description>
               <strong>Tools</strong> <br />

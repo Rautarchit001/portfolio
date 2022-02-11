@@ -111,13 +111,19 @@ const AboutPage = () => {
             initial={{ opacity: 0 }}
             animate={{ opacity: 1, transition: { duration: 1, delay: 1 } }}
           >
-            I'm a Software Developer located in India. I love to create simple
-            yet beautiful websites with great user experience. I'm a constant learner.
+            I'm a Software Developer. I adore designing user-friendly websites
+            that are both simple and elegant. I consider myself to be a lifelong
+            learner. I'm proficient in data structures and algorithms.
             <br />
             <br />
-            I'm also interested in Machine Learning and I Like trying new things
-            and building great projects. I'm extremely fond of Robotics and built about 7 Robots at my 15.I'm good in Data Strutures and Algorithms <br />
-            <br />I have been a tech saavy since my childhood , I'm an extroverted being. You can connect with me via social links.{" "}
+            I'm also interested in Machine Learning, and I adore experimenting
+            with new ideas and putting together fantastic projects. I've always
+            been interested in robotics and built around seven of them when I
+            was 15 years old. <br />
+            <br />
+            I've been fascinated by technology since I was a child and grown up
+            as a Tech Savvy, and I'm a gregarious individual. You can reach out
+            to me on my socials.{" "}
           </Main>
           <BigTitle text="ABOUT" top="10%" left="5%" />
         </Box>
