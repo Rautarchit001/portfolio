@@ -322,7 +322,7 @@ const Main = () => {
                 whileHover={{ scale: 1.1 }}
                 whileTap={{ scale: 0.9 }}
               >
-                Achievements
+                Feats
               </motion.h2>
             </BLOG>
           ) : (
