@@ -120,6 +120,12 @@ const RESUME = styled(NavLink)`
   @media only screen and (max-width: 50em) {
     text-shadow: ${(props) => (props.click ? "0 0 4px #000" : "none")};
   }
+  @media only screen and (max-height: 750px) {
+    position: absolute;
+    top: 4% !important;
+    left: calc(1rem + 25vw) !important;
+    transform: none !important;
+  }
 `;
 
 const WORK = styled(NavLink)`
@@ -132,6 +138,10 @@ const WORK = styled(NavLink)`
   text-decoration: none;
   @media only screen and (max-width: 50em) {
     text-shadow: ${(props) => (props.click ? "0 0 4px #000" : "none")};
+  }
+  @media only screen and (max-height: 750px) {
+    position: absolute;
+    top: 25% !important;
   }
 `;
 const BottomBar = styled.div`
