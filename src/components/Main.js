@@ -14,6 +14,10 @@ const SocialIcons = lazy(() => import("./../subComponents/SocialIcons"));
 const LogoComponent = lazy(() => import("./../subComponents/LogoComponent"));
 
 const MainContainer = styled(motion.div)`
+  &::selection {
+    color: red;
+    background: yellow;
+  }
   background: ${(props) => props.theme.body};
   width: 100vw;
   height: 100vh;
@@ -215,7 +219,7 @@ const Main = () => {
 
   const download = () => {
     window.open(
-      "https://firebasestorage.googleapis.com/v0/b/hareesh-e153f.appspot.com/o/Hareesh%20Updated%20Resume.pdf?alt=media&token=8687f221-515c-4aca-88d5-2e8512f08e92",
+      "https://firebasestorage.googleapis.com/v0/b/hareesh-e153f.appspot.com/o/Hareesh%20Updated%20Resume.pdf?alt=media&token=f84b642c-f729-4495-96bd-92e58601d46b",
       "_blank"
     );
   };

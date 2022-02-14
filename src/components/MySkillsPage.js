@@ -45,7 +45,7 @@ height:auto;
 const Main = styled(motion.div)`
   border: 2px solid ${(props) => props.theme.text};
   color: ${(props) => props.theme.text};
-  background-color: ${(props) => props.theme.body};
+  background-color: rgb(252 246 244 / 25%);
   padding: 2rem;
   width: 30vw;
   height: 60vh;
@@ -70,7 +70,7 @@ const Main = styled(motion.div)`
 
   &:hover {
     color: ${(props) => props.theme.body};
-    background-color: ${(props) => props.theme.text};
+    background-color: rgb(0 0 0 / 73%);
   }
 `;
 
