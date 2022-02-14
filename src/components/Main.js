@@ -15,8 +15,8 @@ const LogoComponent = lazy(() => import("./../subComponents/LogoComponent"));
 
 const MainContainer = styled(motion.div)`
   &::selection {
-    color: red;
-    background: yellow;
+    color: white;
+    background: rgb(0 0 0 / 73%);
   }
   background: ${(props) => props.theme.body};
   width: 100vw;
