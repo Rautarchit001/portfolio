@@ -52,7 +52,7 @@ const Main = styled(motion.div)`
   align-items: center;
   font-size: calc(0.6rem + 1vw);
   backdrop-filter: blur(4px);
-
+  background: rgb(0 0 0 / 0%);
   position: absolute;
   left: calc(5rem + 5vw);
   top: 10rem;
@@ -121,11 +121,9 @@ const AboutPage = () => {
             been interested in robotics and built around seven of them when I
             was 15 years old. <br />
             <br />
-            I'm a Crypto junkie and a Pianist contrasting right ?
-            <br />
+            I'm a Crypto junkie and a Pianist contrasting right ?{" "}
             I've been fascinated by technology since I was a child and grown up
-            as a Tech Savvy, and I'm a gregarious individual. You can reach out
-            to me on my socials.{" "}
+            as a Tech Savvy, and I'm a gregarious individual.{" "}
           </Main>
           <BigTitle text="ABOUT" top="10%" left="5%" />
         </Box>
