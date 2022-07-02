@@ -72,7 +72,6 @@ const Main = styled(motion.div)`
   ${mediaQueries(30)`
           width: 50vw;
           height: auto;
-          backdrop-filter: none;
           margin-top:2rem;
 
   `};
