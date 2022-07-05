@@ -49,7 +49,7 @@ const Title = styled.h2`
   font-size: calc(1em + 0.5vw);
 `;
 const Description = styled.h4`
-  font-size: calc(0.8em + 0.3vw);
+  font-size: calc(0.7em + 0.3vw);
   font-family: "Karla", sans-serif;
   font-weight: 500;
   ${mediaQueries(25)`

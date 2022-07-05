@@ -50,7 +50,7 @@ const Main = styled(motion.div)`
   display: flex;
   justify-content: center;
   align-items: center;
-  font-size: calc(0.6rem + 1vw);
+  font-size: calc(0.5rem + 1vw);
   backdrop-filter: blur(4px);
   background: rgb(0 0 0 / 0%);
   position: absolute;
