@@ -2,6 +2,33 @@
 
 export const Work = [
   {
+    id: 17,
+    name: "KryptoGiffy",
+    description:
+      "This platform allows you to perform transactions via Blockchain by using Ethereum mainnet.Prerequsite : Web3.0 Wallet.",
+    tags: ["Ropsen", "Goerli", "Ethereum", "Web 3.0"],
+
+    demo: "https://kryptogiffy.web.app/",
+    github: "https://github.com/hareesh-r/KryptoGiffy",
+  },{
+    id: 16,
+    name: "Graphical Password Authentication",
+    description:
+      "Users can set passwords using images and their sequence using this project, which implements the same concept for password authentication as recapcha (checks for Human), allowing users to access many websites that have included this authentication feature similar to Google Signin. And We have presented the Live Demo for Smart India Hackathon",
+    tags: ["SIH", "Security", "API", "MongoDB"],
+
+    demo: "https://github.com/hareesh-r/Graphical-password-authentication",
+    github: "https://github.com/hareesh-r/Graphical-password-authentication",
+  },{
+    id: 18,
+    name: "Breach Checker",
+    description:
+      "This website checks if your passwords or critical information has been leaked anywhere in the internet or not, This website it completely free , secure and not vulnerable to attacks like SQL Injection, XSS, etc.",
+    tags: ["HIBP", "RockYou2021", "APIs", "Particle.JS"],
+
+    demo: "https://breachchecker.web.app/",
+    github: "https://github.com/hareesh-r/password-breach-checker",
+  },{
     id: 1,
     name: "Crypto King",
     description:

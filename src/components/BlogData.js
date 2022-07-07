@@ -77,7 +77,7 @@ export const Blogs = [
   {
     id: 5,
     name: "Machine Learning",
-    tags: ["Applied", "reactJS", "web-development"],
+    tags: ["Applied ML", "Data Science", "Data Analysis"],
     date: "Internshala - Credential ID : 0664361D-388D-E9FE-CDEE-52C350E6A7D9",
     imgSrc:
       "https://firebasestorage.googleapis.com/v0/b/hareesh-e153f.appspot.com/o/internshala_og_image.jpg?alt=media&token=d6528be6-79ff-445c-acd7-c1bdd3c13b13",
