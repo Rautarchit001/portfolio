@@ -116,8 +116,8 @@ const Git = styled(NavLink)`
 `;
 
 const item = {
-  hidden: { scale: 0 },
-  show: { scale: 1, transition: { type: "spring", duration: 0.5 } },
+  hidden: { scale: 1 },
+  show: { scale: 1, transition: { type: "spring", duration: 0 } },
 };
 
 const Card = (props) => {
