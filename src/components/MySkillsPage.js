@@ -171,7 +171,7 @@ const MySkillsPage = () => {
             </Description>
             <Description>
               <strong>I like to code in</strong> <br />
-              <p>Python, Java, Javascript, Node, MySQL, GraphQL, C, C++, MongoDB</p>
+              <p>Python, Java, Javascript, Node, MySQL, GraphQL, Spring, C, C++, MongoDB</p>
             </Description>
             <Description>
               <strong>Tools</strong> <br />
