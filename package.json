@@ -9,6 +9,7 @@
     "downloadjs": "^1.4.7",
     "file-saver": "^2.0.5",
     "FileSaver": "^0.10.0",
+    "firebase": "^8.10.0",
     "framer-motion": "^4.1.17",
     "normalize.css": "^8.0.1",
     "react": "^17.0.2",

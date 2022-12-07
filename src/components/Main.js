@@ -1,8 +1,8 @@
 import styled, { keyframes } from "styled-components";
 import { NavLink } from "react-router-dom";
-import { lazy, Suspense, useState } from "react";
+import { lazy, Suspense, useEffect, useState } from "react";
 import { motion } from "framer-motion";
-
+import storage from './firebase';
 import { YinYang } from "./AllSvgs";
 import Intro from "./Intro";
 import Loading from "../subComponents/Loading";
@@ -26,7 +26,7 @@ const MainContainer = styled(motion.div)`
 
   h2,
   h3,
-  h4,
+  h4, 
   h5,
   h6 {
     font-family: "Karla", sans-serif;
@@ -216,12 +216,27 @@ const Main = () => {
     x: `${path === "work" ? "100%" : "-100%"}`,
   };
   const mq = window.matchMedia("(max-width: 50em)").matches;
-
+  
   const download = () => {
-    window.open(
-      "https://firebasestorage.googleapis.com/v0/b/hareesh-e153f.appspot.com/o/Hareesh%20Updated%20Resume.pdf?alt=media&token=c7df8ad2-c91a-4968-90bc-a26ea8746842",
-      "_blank"
-    );
+    var storageRef = storage.ref("resume");
+    storageRef.listAll().then(function(result) {
+      result.items.forEach(function(imageRef) {
+        getResumeURL(imageRef);
+      });
+    }).catch(function(error) {
+      alert("Oops my resume got lost! you can find it in my LinkedIn as well")
+    });
+
+    function getResumeURL(imageRef) {
+      imageRef.getDownloadURL().then(function(url) {
+        window.open(
+          url,
+          "_blank"
+        );
+      }).catch(function(error) {
+        alert("Oops my resume got lost! you can find it in my LinkedIn as well")
+      });
+    }
   };
 
   return (
