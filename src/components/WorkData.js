@@ -14,7 +14,7 @@ export const Work = [
     id: 16,
     name: "Graphical Password Authentication",
     description:
-      "Users can set passwords using images and their sequence using this project, which implements the same concept for password authentication as recapcha (checks for Human), allowing users to access many websites that have included this authentication feature similar to Google Signin. And We have presented the Live Demo for Smart India Hackathon",
+      "Users can set passwords using images and their sequence using this project, which implements the same concept for password authentication as recapcha (checks for Human). I have presented the Live Demo for Smart India Hackathon",
     tags: ["SIH", "Security", "API", "MongoDB"],
 
     demo: "https://github.com/hareesh-r/Graphical-password-authentication",

@@ -17,6 +17,7 @@ const Box = styled(motion.li)`
   justify-content: space-between;
   border: 1px solid ${(props) => props.theme.body};
   transition: all 0.2s ease;
+  cursor: crosshair;
   &:hover {
     background-color: ${(props) => props.theme.body};
     color: ${(props) => props.theme.text};
@@ -57,7 +58,7 @@ const Description = styled.h4`
   `};
   ${mediaQueries(20)`
   font-size:calc(0.6em + 0.3vw);
-
+  overflow: scroll;
   `};
 `;
 const Tags = styled.div`
