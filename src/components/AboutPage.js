@@ -110,7 +110,7 @@ const AboutPage = () => {
             initial={{ opacity: 0 }}
             animate={{ opacity: 1, transition: { duration: 1, delay: 1 } }}
           >
-            I'm a Software Developer. I adore designing user-friendly websites
+            I'm a Software Developer at Zoho Corporation. I adore designing user-friendly websites
             that are both simple and elegant. I consider myself to be a lifelong
             learner. I'm proficient in data structures and algorithms.
             <br />
@@ -122,7 +122,7 @@ const AboutPage = () => {
             <br />
             I'm a Crypto junkie and a Pianist contrasting right ?{" "}
             I've been fascinated by technology since I was a child and grown up
-            as a Tech Savvy, and I'm a gregarious individual.{" "}
+            as a Tech Savvy{" "}
           </Main>
           <BigTitle text="ABOUT" top="10%" left="5%" />
         </Box>

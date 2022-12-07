@@ -171,12 +171,13 @@ const MySkillsPage = () => {
             </Description>
             <Description>
               <strong>I like to code in</strong> <br />
-              <p>Python, Java, Javascript, Node, MySQL, C, C++, MongoDB</p>
+              <p>Python, Java, Javascript, Node, MySQL, GraphQL, C, C++, MongoDB</p>
             </Description>
             <Description>
               <strong>Tools</strong> <br />
               <ul>
                 <li>Anaconda</li>
+                <li>Eclipse</li>
                 <li>Jupyter</li>
                 <li>Pycharm</li>
               </ul>
@@ -194,7 +195,7 @@ const MySkillsPage = () => {
             </Description>
             <Description>
               <strong>Skills</strong> <br />
-              <p>Html, Css, Js, React, Redux, Sass, Bootstrap, Firebase</p>
+              <p>Html, Css, Js, Handlebars, React, Redux, Sass, Bootstrap, Firebase</p>
             </Description>
             <Description>
               <strong>Tools</strong> <br />
