@@ -20,6 +20,7 @@ const Box = styled(motion.div)`
   position: relative;
   display: flex;
   height: 400vh;
+  cursor: crosshair;
 `;
 
 const Main = styled(motion.ul)`

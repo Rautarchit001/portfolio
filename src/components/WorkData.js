@@ -33,7 +33,7 @@ export const Work = [
     name: "Crypto King",
     description:
       "Crypto king is a crypto infomercial web app that displays market and Top 100 coin data, as well as relevant news and information about crypto exchanges.",
-    tags: ["react", "crypto", "coinranking API", "redux"],
+    tags: ["React", "Crypto", "Coinranking API", "Redux"],
 
     demo: "https://cryptoking.web.app/",
     github: "https://github.com/hareesh-r/cryptoking",
@@ -43,7 +43,7 @@ export const Work = [
     name: "Internshala-frontend",
     description:
       "This web application for an internship application was created in 3 hours and is identical to the homepage of internshala.com",
-    tags: ["react", "html", "css"],
+    tags: ["React", "HTML", "CSS"],
 
     demo: "https://internshala-frontend.web.app/",
     github: "https://github.com/hareesh-r/internshala-frontend",
@@ -53,7 +53,7 @@ export const Work = [
     name: "Stock-information",
     description:
       "This is a stock market information web application that will provide infographics on real-time stock market data from well-known stocks in daily, weekly, and monthly views, as well as extra stock information packed with a search for specific stock feature.",
-    tags: ["react", "api", "stocks", "stvio API", "chart.js"],
+    tags: ["React", "API", "Stocks", "AlphaVantage", "Chart.js"],
 
     demo: "https://stock-information.web.app/",
     github: "https://github.com/hareesh-r/stock-info",
@@ -63,7 +63,7 @@ export const Work = [
     name: "Acoustic Music",
     description:
       "This is a Spotify web app that allows you to listen to most of the songs if you have a premium membership; otherwise, you can listen to a 30-second song preview.",
-    tags: ["react", "Spotify API", "Spotify Authentication"],
+    tags: ["React", "Spotify API", "Spotify Authentication"],
 
     demo: "https://acousticmusic.web.app/",
     github: "https://github.com/hareesh-r/acoustic-music",
@@ -73,7 +73,7 @@ export const Work = [
     name: "Weather Man",
     description:
       "It's a simple weather app featuring real-time data from 5 well-known locations, as well as a detailed Real-Time Prediction Chart developed with OpenWeatherAPI. You can also search for your desired city and get facts, as well as a dynamic backdrop image and real-time chart.",
-    tags: ["react", "Open weather API", "chart.js"],
+    tags: ["React", "Open weather API", "Chart.js"],
 
     demo: "https://weather-man-hareesh.web.app/",
     github: "https://github.com/hareesh-r/weather-man",
@@ -93,7 +93,7 @@ export const Work = [
     name: "ComebackAlums V2.0",
     description:
       "CSI Sponsored web development competition winning Project and Personal Favorite",
-    tags: ["react", "firebase", "Material UI"],
+    tags: ["React", "Firebase", "Material UI"],
 
     demo: "https://comebackalums.web.app/",
     github: "https://github.com/hareesh-r/comebackalums2.0",
@@ -103,7 +103,7 @@ export const Work = [
     name: "Google Clone",
     description:
       "Clone of Google With dark mode functionality, built with Google Custom Search API and ReactJS.",
-    tags: ["react", "Google Search API", "CSS", "HTML"],
+    tags: ["React", "Google Search API", "CSS", "HTML"],
 
     demo: "https://gooogle-hareesh.web.app/",
     github: "https://github.com/hareesh-r/google-hareesh",
@@ -113,7 +113,7 @@ export const Work = [
     name: "Netflix Frontend Clone",
     description:
       "Netflix frontend clone with React JS and Firebase Backend with TMDB API",
-    tags: ["react", "TMDB API", "css", "firebase"],
+    tags: ["React", "TMDB API", "CSS", "Firebase"],
 
     demo: "https://netflix-hareesh.web.app/",
     github: "https://github.com/hareesh-r/netflix-hareesh",
@@ -123,7 +123,7 @@ export const Work = [
     name: "JioFi-Battery-Notification",
     description:
       "This is my own code to fix a real-world problem with my JioFi's (Portable Hotspot) battery bulging due to overcharging and cutting out owing to low battery.",
-    tags: ["Python", "python notification", "selenium"],
+    tags: ["Python", "Python notification", "selenium"],
 
     demo: "https://github.com/hareesh-r/JioFi-Battery-Notification",
     github: "https://github.com/hareesh-r/JioFi-Battery-Notification",
@@ -162,8 +162,8 @@ export const Work = [
     id: 14,
     name: "File-Seperator",
     description:
-      "It's a python-based file segregator that separates files into different folders based on their type, allowing you to organise your files in seconds and helping people with OCD by cleaning the cutter. ",
-    tags: ["OS", "python", "utility", "real time"],
+      "It's a Python-based file segregator that separates files into different folders based on their type, allowing you to organise your files in seconds and helping people with OCD by cleaning the cutter. ",
+    tags: ["OS", "Python", "Utility", "Real Time"],
 
     demo: "https://github.com/hareesh-r/File-Seperator",
     github: "https://github.com/hareesh-r/File-Seperator",
@@ -173,9 +173,9 @@ export const Work = [
     name: "instagram-login-automation",
     description:
       "Send a message to anyone with two options. In a variety of languages (120+), wish them a happy birthday. Annoy them by sending them the same message N times.",
-    tags: ["instagram", "Selenium", "python"],
+    tags: ["Instagram", "Selenium", "Python"],
 
-    demo: "http://react-responsive-navbar-codebucks27.vercel.app/",
+    demo: "http://React-responsive-navbar-codebucks27.vercel.app/",
     github: "https://github.com/codebucks27/React-responsive-navbar",
   },
 ];
