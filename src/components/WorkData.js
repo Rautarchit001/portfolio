@@ -1,5 +1,3 @@
-// work data
-
 export const Work = [
   {
     id: 17,
@@ -10,6 +8,7 @@ export const Work = [
 
     demo: "https://kryptogiffy.web.app/",
     github: "https://github.com/hareesh-r/KryptoGiffy",
+    image: "https://firebasestorage.googleapis.com/v0/b/hareesh-e153f.appspot.com/o/projects%2Fkryptogiffy.jpg?alt=media&token=b642f131-cdda-4378-9d2b-7f8770b1e671"
   },{
     id: 16,
     name: "Graphical Password Authentication",
@@ -19,24 +18,27 @@ export const Work = [
 
     demo: "https://github.com/hareesh-r/Graphical-password-authentication",
     github: "https://github.com/hareesh-r/Graphical-password-authentication",
+    image: "https://firebasestorage.googleapis.com/v0/b/hareesh-e153f.appspot.com/o/projects%2FWIP.jpg?alt=media&token=d384a63d-39f9-4c55-8cea-e39e2c52de4c"
   },{
     id: 18,
     name: "Breach Checker",
     description:
-      "This website checks if your passwords or critical information has been leaked anywhere in the internet or not, This website it completely free , secure and not vulnerable to attacks like SQL Injection, XSS, etc.",
+      "This website checks if your passwords or critical information has been leaked anywhere in the internet or not. This website is completely free , secure and not vulnerable to attacks like SQL Injection, XSS, etc.",
     tags: ["HIBP", "RockYou2021", "APIs", "Particle.JS"],
 
     demo: "https://breachchecker.web.app/",
     github: "https://github.com/hareesh-r/password-breach-checker",
+    image : "https://firebasestorage.googleapis.com/v0/b/hareesh-e153f.appspot.com/o/projects%2FBreach.jpg?alt=media&token=cafe9666-18c6-403d-919c-c6771c44b9fc"
   },{
     id: 1,
     name: "Crypto King",
     description:
-      "Crypto king is a crypto infomercial web app that displays market and Top 100 coin data, as well as relevant news and information about crypto exchanges.",
+      "Crypto king is a crypto infomercial web app that displays market and Top 100 crypto currency data, as well as relevant news and information about crypto exchanges.",
     tags: ["React", "Crypto", "Coinranking API", "Redux"],
 
     demo: "https://cryptoking.web.app/",
     github: "https://github.com/hareesh-r/cryptoking",
+    image : "https://firebasestorage.googleapis.com/v0/b/hareesh-e153f.appspot.com/o/projects%2Fcryptoking.jpg?alt=media&token=250872db-0997-4e38-9676-08c1d69242a9"
   },
   {
     id: 2,
@@ -47,6 +49,7 @@ export const Work = [
 
     demo: "https://internshala-frontend.web.app/",
     github: "https://github.com/hareesh-r/internshala-frontend",
+    image : "https://firebasestorage.googleapis.com/v0/b/hareesh-e153f.appspot.com/o/projects%2Finternshala-frontend.jpg?alt=media&token=6111c43a-0ae0-4130-8e52-4897b042a43d"
   },
   {
     id: 3,
@@ -57,6 +60,7 @@ export const Work = [
 
     demo: "https://stock-information.web.app/",
     github: "https://github.com/hareesh-r/stock-info",
+    image : "https://firebasestorage.googleapis.com/v0/b/hareesh-e153f.appspot.com/o/projects%2Fstock-info.jpg?alt=media&token=e676df7e-fdd5-42be-9ef2-f5ba640320e4"
   },
   {
     id: 4,
@@ -67,6 +71,7 @@ export const Work = [
 
     demo: "https://acousticmusic.web.app/",
     github: "https://github.com/hareesh-r/acoustic-music",
+    image : "https://firebasestorage.googleapis.com/v0/b/hareesh-e153f.appspot.com/o/projects%2Facoustic.jpg?alt=media&token=08d3adfc-c468-4f34-ab83-1a5fefda41d5"
   },
   {
     id: 5,
@@ -77,6 +82,7 @@ export const Work = [
 
     demo: "https://weather-man-hareesh.web.app/",
     github: "https://github.com/hareesh-r/weather-man",
+    image : "https://firebasestorage.googleapis.com/v0/b/hareesh-e153f.appspot.com/o/projects%2Fweather.jpg?alt=media&token=56582d0b-fe15-4e53-a9ce-349c0f17e7f8"
   },
   {
     id: 6,
@@ -87,6 +93,7 @@ export const Work = [
 
     demo: "https://www.youtube.com/watch?v=40ZY_vaVn3w",
     github: "https://www.youtube.com/watch?v=40ZY_vaVn3w",
+    image : "https://firebasestorage.googleapis.com/v0/b/hareesh-e153f.appspot.com/o/projects%2FEcoVille.jpg?alt=media&token=ee509486-64bd-4aa4-8bc1-6577f74338f5"
   },
   {
     id: 7,
@@ -97,6 +104,7 @@ export const Work = [
 
     demo: "https://comebackalums.web.app/",
     github: "https://github.com/hareesh-r/comebackalums2.0",
+    image : "https://firebasestorage.googleapis.com/v0/b/hareesh-e153f.appspot.com/o/projects%2Fcomeback.jpg?alt=media&token=8fc2dcf5-1696-4626-a52b-c2625452a8f2"
   },
   {
     id: 8,
@@ -107,6 +115,7 @@ export const Work = [
 
     demo: "https://gooogle-hareesh.web.app/",
     github: "https://github.com/hareesh-r/google-hareesh",
+    image : "https://firebasestorage.googleapis.com/v0/b/hareesh-e153f.appspot.com/o/projects%2Fgoogle.jpg?alt=media&token=e1aa6175-55ca-4307-9e7a-1811d42060ca"
   },
   {
     id: 9,
@@ -117,6 +126,7 @@ export const Work = [
 
     demo: "https://netflix-hareesh.web.app/",
     github: "https://github.com/hareesh-r/netflix-hareesh",
+    image : "https://firebasestorage.googleapis.com/v0/b/hareesh-e153f.appspot.com/o/projects%2Fnetflix.jpg?alt=media&token=61b9542d-d38b-44bc-b4dd-8199a1a42f4a"
   },
   {
     id: 10,
@@ -127,6 +137,7 @@ export const Work = [
 
     demo: "https://github.com/hareesh-r/JioFi-Battery-Notification",
     github: "https://github.com/hareesh-r/JioFi-Battery-Notification",
+    image : "https://firebasestorage.googleapis.com/v0/b/hareesh-e153f.appspot.com/o/projects%2Fjiofi.jpg?alt=media&token=433dd834-4a6f-4443-8322-4d0ed1aeb2ca"
   },
   {
     id: 11,
@@ -137,6 +148,7 @@ export const Work = [
 
     demo: "https://mineraldrop.in/",
     github: "https://github.com/hareesh-r/mdrop",
+    image : "https://firebasestorage.googleapis.com/v0/b/hareesh-e153f.appspot.com/o/projects%2Fmineraldrop.jpg?alt=media&token=d98dc2e4-16b0-4cba-8083-e81e29052bf4"
   },
   {
     id: 12,
@@ -147,6 +159,7 @@ export const Work = [
 
     demo: "https://github.com/hareesh-r/Facial-Expression-Recognition-Keras",
     github: "https://github.com/hareesh-r/Facial-Expression-Recognition-Keras",
+    image : "https://firebasestorage.googleapis.com/v0/b/hareesh-e153f.appspot.com/o/projects%2Fface.jpg?alt=media&token=c85f8e04-3c8d-4c58-82cc-0e68a7df5378"
   },
   {
     id: 13,
@@ -157,6 +170,7 @@ export const Work = [
 
     demo: "https://github.com/hareesh-r/tweetbot",
     github: "https://github.com/hareesh-r/tweetbot",
+    image : "https://firebasestorage.googleapis.com/v0/b/hareesh-e153f.appspot.com/o/projects%2Ftweet.jpg?alt=media&token=fe7b2aec-1317-40a8-aee6-dac343050ba2"
   },
   {
     id: 14,
@@ -167,6 +181,7 @@ export const Work = [
 
     demo: "https://github.com/hareesh-r/File-Seperator",
     github: "https://github.com/hareesh-r/File-Seperator",
+    image : "https://firebasestorage.googleapis.com/v0/b/hareesh-e153f.appspot.com/o/projects%2Ffileseperator.jpg?alt=media&token=06a64da8-2da2-4bf8-8232-ba3ca50e39bc"
   },
   {
     id: 15,
@@ -177,5 +192,6 @@ export const Work = [
 
     demo: "http://React-responsive-navbar-codebucks27.vercel.app/",
     github: "https://github.com/codebucks27/React-responsive-navbar",
+    image : "https://firebasestorage.googleapis.com/v0/b/hareesh-e153f.appspot.com/o/projects%2Ffileseperator.jpg?alt=media&token=06a64da8-2da2-4bf8-8232-ba3ca50e39bc"
   },
 ];

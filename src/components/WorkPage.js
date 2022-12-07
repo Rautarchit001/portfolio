@@ -28,8 +28,6 @@ const Main = styled(motion.ul)`
   left: calc(10rem + 15vw);
 
   height: 40vh;
-  /* height:200vh; */
-  //border:1px solid white;
 
   display: flex;
 
@@ -108,7 +106,7 @@ const WorkPage = () => {
     let element = ref.current;
 
     const rotate = () => {
-      element.style.transform = `translateX(${-window.pageYOffset / 6}em)`;
+      element.style.transform = `translateX(${-window.pageYOffset / 5}em)`;
 
       return (yinyang.current.style.transform =
         "rotate(" + -window.pageYOffset + "deg)");
