@@ -24,7 +24,7 @@ const Box = styled(motion.div)`
 
 const Main = styled(motion.ul)`
   position: fixed;
-  top: 12rem;
+  top: 6rem;
   left: 0;
 
   height: 40vh;
