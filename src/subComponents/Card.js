@@ -18,7 +18,7 @@ const Box = styled(motion.li)`
   justify-content: space-around;
   border: 1px solid ${(props) => props.theme.body};
   transition: all 0.2s ease;
-  cursor: crosshair;
+
   ${mediaQueries(50)`
         width:16rem;
         margin-right:6rem;
@@ -45,7 +45,7 @@ padding:1.5rem 1.5rem;
 const Title = styled.h2`
   font-size: calc(1em + 0.5vw);
 `;
-const Description = styled.h4`
+const Description = styled.div`
   font-size: calc(0.7em + 0.3vw);
   font-family: "Karla", sans-serif;
   font-weight: 500;
@@ -54,7 +54,6 @@ const Description = styled.h4`
   `};
   ${mediaQueries(20)`
   font-size:calc(0.6em + 0.3vw);
-  overflow: scroll;
   `};
 `;
 const Tags = styled.div`

@@ -25,36 +25,11 @@ const Box = styled(motion.div)`
 const Main = styled(motion.ul)`
   position: fixed;
   top: 12rem;
-  left: calc(10rem + 15vw);
+  left: 0;
 
   height: 40vh;
 
   display: flex;
-
-  ${mediaQueries(50)`
-        
-        
-        left:calc(8rem + 15vw);
-
-  `};
-
-  ${mediaQueries(40)`
-  top: 30%;
-        
-        left:calc(6rem + 15vw);
-
-  `};
-
-  ${mediaQueries(40)`
-        
-        left:calc(2rem + 15vw);
-
-  `};
-  ${mediaQueries(25)`
-        
-        left:calc(1rem + 15vw);
-
-  `};
 `;
 
 const Rotate = styled.span`
@@ -103,19 +78,41 @@ const WorkPage = () => {
   const yinyang = useRef(null);
 
   useEffect(() => {
-    let element = ref.current;
+    const slider = document.querySelector(".items");
+    let isDown = false;
+    let startX;
+    let scrollLeft;
+    slider.style.cursor = "grab";
 
-    const rotate = () => {
-      element.style.transform = `translateX(${-window.pageYOffset / 5}em)`;
 
-      return (yinyang.current.style.transform =
-        "rotate(" + -window.pageYOffset + "deg)");
-    };
+    slider.addEventListener("mousedown", (e) => {
+      isDown = true;
+      slider.classList.add("active");
+      slider.style.cursor = "grabbing";
+      startX = e.pageX - slider.offsetLeft;
+      scrollLeft = slider.scrollLeft;
+    });
 
-    window.addEventListener("scroll", rotate);
-    return () => {
-      window.removeEventListener("scroll", rotate);
-    };
+    slider.addEventListener("mouseleave", () => {
+      isDown = false;
+      slider.classList.remove("active");
+    });
+
+    slider.addEventListener("mouseup", () => {
+      isDown = false;
+      slider.classList.remove("active");
+      slider.style.cursor = "grab";
+    });
+
+    slider.addEventListener("mousemove", (e) => {
+      if (!isDown) return;
+      e.preventDefault();
+      const x = e.pageX - slider.offsetLeft;
+      const walk = (x - startX) * 2; 
+      slider.scrollLeft = scrollLeft - walk;
+      yinyang.current.style.transform = "rotate(" + (walk / 3) + "deg)";
+
+    });
   }, []);
 
   return (
@@ -131,14 +128,21 @@ const WorkPage = () => {
           <PowerButton />
           <SocialIcons theme="dark" />
 
-          <Main ref={ref} variants={container} initial="hidden" animate="show">
+          <Main
+            className="items"
+            id="grab-scroll"
+            ref={ref}
+            variants={container}
+            initial="hidden"
+            animate="show"
+          >
             {Work.map((d) => (
               <Card key={d.id} data={d} />
             ))}
           </Main>
 
           <BigTitle text="WORK" top="10%" right="20%" />
-          <BigTitle text="SwipeUP" top="80%" right="0%" />
+          <BigTitle text="Swipe.." top="80%" right="0%" />
 
           <Rotate ref={yinyang}>
             <YinYang width={80} height={80} fill={DarkTheme.text} />

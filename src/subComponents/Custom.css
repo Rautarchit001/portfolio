@@ -57,3 +57,21 @@
 .git {
     fill : #FCF6F4;
 }
+
+.items {
+    position: relative;
+    width: 100%;
+    overflow-x: scroll;
+    overflow-y: hidden;
+    transition: all 0.2s;
+    transform: scale(0.98);
+    will-change: transform;
+    user-select: none;
+    padding: 100px;
+}
+
+@media only screen and (max-height: 750px){
+    .items{
+        padding: 48px;
+    }
+}
