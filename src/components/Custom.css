@@ -6,3 +6,28 @@
     -ms-overflow-style: none;
     scrollbar-width: none;
 }
+
+
+/* Leetcode special highlight */
+#card-img-16 {
+   background-repeat: no-repeat;
+   height: inherit;
+   border: 1px solid #FCF6F4;
+   border-radius: 0px;
+    box-shadow: inset 5px -5px 10px #0b0b0b,
+                inset -5px 5px 10px #2d2d2d;
+}
+
+#card-16 a {
+    color: #FCF6F4;
+    background-color: #1c1c1c;
+}
+
+#card-16 h3 {
+    border: none;
+    text-align: center;
+}
+
+#card-tags-16 , #card-date-16 {
+    display: none;
+}

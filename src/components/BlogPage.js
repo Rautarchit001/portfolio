@@ -8,7 +8,7 @@ import { Blogs } from "./BlogData";
 import BlogComponent from "./BlogComponent";
 import Loading from "../subComponents/Loading";
 import { mediaQueries } from "./Themes";
-import "./Custom.css"
+import "./Custom.css";
 
 const AnchorComponent = lazy(() => import("../subComponents/Anchor"));
 const SocialIcons = lazy(() => import("../subComponents/SocialIcons"));
@@ -26,8 +26,6 @@ const MainContainer = styled(motion.div)`
 
 const Container = styled.div`
   background-color: ${(props) => `rgba(${props.theme.bodyRgba},0.8)`};
-
-  //width:100vw;
   width: 100%;
   height: auto;
   position: relative;
@@ -50,14 +48,9 @@ const Center = styled.div`
 const Grid = styled(motion.div)`
   display: grid;
   grid-template-columns: repeat(2, minmax(calc(10rem + 15vw), 1fr));
-
   grid-gap: calc(1rem + 2vw);
-
   ${mediaQueries(50)`
     grid-template-columns: 100%;
-
-    
-  
   `};
 `;
 
@@ -103,7 +96,7 @@ const BlogPage = () => {
             </Grid>
           </Center>
 
-          <BigTitle text="BLOG" top="5rem" left="5rem" />
+          <BigTitle text="FEATURES" top="5rem" left="5rem" />
         </Container>
       </MainContainer>
     </Suspense>

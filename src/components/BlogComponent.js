@@ -2,6 +2,7 @@ import { motion } from "framer-motion";
 import { NavLink } from "react-router-dom";
 import styled from "styled-components";
 import { mediaQueries } from "./Themes";
+import "./Custom.css";
 
 const Box = styled(motion(NavLink))`
   backdrop-filter: blur(2px);
@@ -12,35 +13,27 @@ const Box = styled(motion(NavLink))`
   border: 2px solid ${(props) => props.theme.text};
   padding: 1rem;
   color: ${(props) => props.theme.text};
-
   display: flex;
   flex-direction: column;
   z-index: 5;
-
   cursor: pointer;
   &:hover {
     color: ${(props) => props.theme.body};
     background-color: ${(props) => props.theme.text};
-
     transition: all 0.3s ease;
   }
 
   ${mediaQueries(50)`
     width:calc(60vw);
-
   `};
   ${mediaQueries(30)`
-    
     height:18rem;
-
   `};
 
   ${mediaQueries(25)`
-    
     height:14rem;
     padding:0.8rem;
     backdrop-filter: none;
-
   `};
 `;
 
@@ -52,12 +45,8 @@ const Image = styled.div`
   border: 1px solid transparent;
   background-position: center center;
   ${mediaQueries(25)`
-    
     height:70%;
-
-
   `};
-
   ${Box}:hover & {
     border: 1px solid ${(props) => props.theme.body};
   }
@@ -71,19 +60,11 @@ const Title = styled.h3`
   font-weight: 700;
   ${mediaQueries(40)`
     font-size:calc(0.8em + 1vw);
-
   `};
-
   ${mediaQueries(25)`
-    
     font-size:calc(0.6em + 1vw);
-
-
-
   `};
-
   border-bottom: 1px solid ${(props) => props.theme.text};
-
   ${Box}:hover & {
     border-bottom: 1px solid ${(props) => props.theme.body};
   }
@@ -91,11 +72,7 @@ const Title = styled.h3`
 const HashTags = styled.div`
   padding: 0.5rem 0;
   ${mediaQueries(25)`
-    
     font-size:calc(0.5em + 1vw);
-
-
-
   `};
 `;
 const Tag = styled.span`
@@ -105,11 +82,7 @@ const Tag = styled.span`
 const Date = styled.span`
   padding: 0.5rem 0;
   ${mediaQueries(25)`
-    
     font-size:calc(0.5em + 1vw);
-
-
-
   `};
 `;
 
@@ -120,18 +93,18 @@ const item = {
 };
 
 const BlogComponent = (props) => {
-  const { name, tags, date, imgSrc, link } = props.blog;
+  const { id, name, tags, date, imgSrc, link } = props.blog;
   return (
-    <Container variants={item}>
+    <Container id={"card-" + id} variants={item}>
       <Box target="_blank" to={{ pathname: `${link}` }}>
-        <Image img={imgSrc} />
+        <Image id={"card-img-" + id} img={imgSrc} />
         <Title>{name}</Title>
-        <HashTags>
-          {tags.map((t, id) => (
-            <Tag key={id}>#{t}</Tag>
+        <HashTags id={"card-tags-" + id}>
+          {tags.map((t, idk) => (
+            <Tag key={idk}>#{t}</Tag>
           ))}
         </HashTags>
-        <Date>{date}</Date>
+        <Date id={"card-date-" + id}>{date}</Date>
       </Box>
     </Container>
   );
