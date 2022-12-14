@@ -131,7 +131,7 @@ export const Blogs = [
     date: "First year of Coding",
     imgSrc:
       "https://firebasestorage.googleapis.com/v0/b/hareesh-e153f.appspot.com/o/srack.jpg?alt=media&token=5205cc9a-ef54-4781-9296-9bf3def6e1e0",
-    link: "http://intern.skillrack.com/profile/258957/be07621cdc077b395521f8fe439050c4d537901e",
+    link: "https://www.skillrack.com/faces/resume.xhtml?id=258957&key=be07621cdc077b395521f8fe439050c4d537901e",
   },
   {
     id: 1,
